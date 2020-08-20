@@ -16,9 +16,5 @@ namespace HospitalTal
            
         }
         
-        public override double MoneyCalc(int hour, double pricePerHour)
-        {
-          return  base.MoneyCalc(hour,pricePerHour);
-        }
     }
 }

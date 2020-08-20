@@ -7,8 +7,9 @@ namespace HospitalTal
     {
         static void Main(string[] args)
         {
-            Cleaner clean = new Cleaner("vla",123, true, false, true, false, false, true);
-            Console.WriteLine(clean.MoneyCalc(5, 20));
+            Workers clean = new Cleaner("vla",123, true, false, true, false, false, true);
+            Workers toxicCleaner = new ToxicCleaner("bla", 1, 20);
+            Console.WriteLine(toxicCleaner.MoneyCalc(5, 20));
 
         }
     }

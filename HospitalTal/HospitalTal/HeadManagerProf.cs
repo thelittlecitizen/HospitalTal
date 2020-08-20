@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-/*namespace HospitalTal
+namespace HospitalTal
 {
-    public class HeadManagerProf : Workers
-    { HeadManagerProf 
-
-    
-    
-        
-        public override double MoneyCalc(int hour, double pricePerHour)
+     class HeadManagerProf : SManagerProf
+    {
+        public HeadManagerProf(string name, int id, int risk) : base(name, id, false, true, true,
+             false, true, false)
         {
-            throw new NotImplementedException();
+            base.NumberRisk = risk;
         }
     }
-}*/
+}
