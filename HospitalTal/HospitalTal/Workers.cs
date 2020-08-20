@@ -57,8 +57,7 @@ namespace HospitalTal
                 sum= sum+ 1.3 * (hour * pricePerHour);
             return sum;
 
-           
-
+        
         }
        
         
